@@ -1,4 +1,4 @@
-package com.tong.spring.bean;
+package com.tong.base.spring.bean;
 
 import org.springframework.stereotype.Component;
 

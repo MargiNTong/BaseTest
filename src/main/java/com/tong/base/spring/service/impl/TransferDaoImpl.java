@@ -1,8 +1,7 @@
-package com.tong.spring.service.impl;
+package com.tong.base.spring.service.impl;
 
-import com.tong.spring.bean.Bank;
-import com.tong.spring.dao.BankDao;
-import com.tong.spring.service.TransferDao;
+import com.tong.base.spring.dao.BankDao;
+import com.tong.base.spring.service.TransferDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,6 +1,6 @@
-package com.tong.spring.dao;
+package com.tong.base.spring.dao;
 
-import com.tong.spring.bean.Bank;
+import com.tong.base.spring.bean.Bank;
 
 public interface BankDao {
     //根据序号查询账户信息

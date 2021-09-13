@@ -1,4 +1,4 @@
-package com.tong.basetest.test;
+package com.tong.base.test;
 
 public class User extends GCInstance{
     private String name;

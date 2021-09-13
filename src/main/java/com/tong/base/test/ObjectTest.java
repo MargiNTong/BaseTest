@@ -1,4 +1,4 @@
-package com.tong.basetest.test;
+package com.tong.base.test;
 
 
 import org.openjdk.jol.info.ClassLayout;

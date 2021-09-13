@@ -1,4 +1,4 @@
-package com.tong.basetest.test;
+package com.tong.base.test;
 
 public class StrongReferenceDemo {
     public static void main(String[] args) {

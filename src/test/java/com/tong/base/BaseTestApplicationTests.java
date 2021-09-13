@@ -1,10 +1,10 @@
-package com.tong.basetest;
+package com.tong.base;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BaseTestApplicationTests {
+public class BaseTestApplicationTests {
 
     @Test
     void contextLoads() {

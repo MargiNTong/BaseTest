@@ -1,15 +1,18 @@
 package com.tong.spring.service.impl;
 
-import com.tong.spring.service.TransferDao;
+import com.tong.base.BaseTestApplication;
+import com.tong.base.BaseTestApplicationTests;
+import com.tong.base.spring.service.TransferDao;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import static org.junit.jupiter.api.Assertions.*;
 @RunWith(SpringJUnit4ClassRunner.class)
-class TransferDaoImplTest {
-
+@ContextConfiguration("classpath:applicationContext-tx.xml")
+class TransferDaoImplTest extends BaseTestApplicationTests {
     @Autowired
     TransferDao transferDao;
     @Test
